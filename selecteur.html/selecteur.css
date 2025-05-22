@@ -1,0 +1,64 @@
+/* selecteur css */
+
+/* Selecteurs Généraux (body, p section = nom des balises */
+
+body {
+  background-color: rgb(179, 245, 240);
+}
+p {
+  background-color: blueviolet;
+}
+/* Selecteur un peu cibles : ici on prend le premier p (premier enfant) direct de section */
+
+section > p:first-child {
+  background-color: rgb(115, 255, 0);
+}
+section > p:last-child {
+  background-color: red;
+}
+
+/* nth child () = on indique le numéro de l'élement à cibler ( 2 = 2eme élement) */
+section > p:nth-child(2) {
+  background-color: aqua;
+}
+/* on cible tout les elements pairs */
+section > p:nth-child(even) {
+  background-color: yellow;
+}
+/* On cible tout les élements impairs */
+section > p:nth-child(odd) {
+  background-color: aquamarine;
+}
+/* Ici section > p:nthchild(odd) prend la priorité */
+
+section > p:nth-child(odd) {
+  background-color: blueviolet;
+}
+section > p > span {
+  /* ou section > p:first-child > span */
+  color: darkred;
+}
+/* la virgule sert a mettre plusieurs elements qui vont recevoir le meme CSs */
+h1,
+p,
+span {
+  /* ATTENTION : La span est demandée en général. sauf que au dessus on cible directement avec section>p>span ( la priorité a celui qui est le mieux cible)
+    */
+  color: violet;
+}
+
+/* Id . class */
+/* # = id */
+#section1 {
+  background-color: purple;
+  height: 100px;
+}
+/* . = class */
+.rouge {
+    color:red;
+    background-color: black; /* la class n'a pas la priorité, elle revient toujours a nth-child 
+    (odd) */
+}
+.raccourci{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,33 @@
+body{
+background-color:aqua;
+text-align: center;
+background-image: url(https://i.ebayimg.com/images/g/2jYAAOSwBG9nT~TJ/s-l1200.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+p {
+    background-color:magenta;
+  }
+  h1{
+    background-color: chartreuse;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+  }
+.ufc{
+ 
+    border: solid;
+    margin: auto;
+    height: 500px;
+    width: 800px;
+    padding: auto;
+    background-image:url(https://www.lexpress.fr/resizer/Y5HVOhuqIIx9jFl353ROKrRarZ8=/arc-photo-lexpress/eu-central-1-prod/public/BQP5AU5BIJBYDEHWKKH2E56HF4.jpg);
+    background-size: cover;
+    color: white;
+}
+li{
+    width: 100px;
+    margin: auto;
+}
