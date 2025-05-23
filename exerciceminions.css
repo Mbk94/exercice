@@ -1,0 +1,28 @@
+table{
+border-collapse: collapse;
+padding: 0px;
+margin: auto;
+}
+td{
+    width: 30px;
+    height: 30px;
+
+}
+.white{
+    background-color: white;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.black{
+    background-color: black;
+}
+.vert{
+background-color: green;
+}
+.grey{
+background-color: grey;
+}

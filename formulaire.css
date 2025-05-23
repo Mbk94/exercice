@@ -1,0 +1,17 @@
+body{
+    background-color:white;
+    text-align: center;
+}
+.for{
+    border:solid ;
+    margin: auto;
+    height: 600px ;
+    width: 950px;
+    background-image: url(https://www.mairie-seysses.fr/wp-content/uploads/2023/01/vignettes_actu_site_FB_552x340px_inscriptions_scolaires.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+h1{
+color: black;    
+}
