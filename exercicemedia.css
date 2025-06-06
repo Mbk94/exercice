@@ -1,0 +1,76 @@
+ .container{
+     width: 100%; 
+    background-color: violet; 
+     height: 30px;
+}
+
+ .contenu div {
+margin:auto;
+width: 30%;
+
+}
+.texte{
+    background-color:rgb(0, 204, 255); 
+    color: white; 
+
+    padding-right: 250px; 
+   height: 35px; 
+   width: 33%; 
+    
+}
+.contenu{ 
+    display:flex;
+     margin: 10px; 
+     justify-content: space-around;
+     width: 1000px; 
+}
+ .width{ 
+    width: 35%; 
+     font-size: 1.3em; 
+      
+    
+    
+    
+}
+.FF {
+    
+    background-color:rgb(0, 204, 255);
+    color:white;
+    text-align:center;
+    width: 33%;
+    
+    font-size: 1.2em;
+ }   
+    h3,P{
+     padding: 2px;
+     margin: 0;
+    }
+  
+    
+
+
+.img{
+    display: flex;
+    margin: 20px;
+
+    justify-content:space-between
+    
+}
+img{
+    width: 300px;
+    height: 250px;
+}
+footer{
+    background-color:rgb(0, 204, 255); ;
+    color: white;
+    width: 100%;
+    height: 50px;
+    
+    padding: 10px;
+
+}
+
+
+
+
+
